@@ -1,6 +1,13 @@
 const todoItem = document.querySelectorAll('.items')
 const cadaItem = document.querySelectorAll('.item')
 const todoCampo = document.querySelectorAll('.campo')
+const botaoEnviar = document.querySelector('.botao')
+
+botaoEnviar.addEventListener('click', 
+        function (event){
+        event.preventDefault()
+})
+
 
 function enviarDados() {
     for (const items of todoItem) {
@@ -18,3 +25,4 @@ function enviarDados() {
         }
     }
 }
+
