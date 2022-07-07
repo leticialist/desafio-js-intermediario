@@ -1,6 +1,4 @@
 const todoItem = document.querySelectorAll('.items')
-const cadaItem = document.querySelectorAll('.item')
-const todoCampo = document.querySelectorAll('.campo')
 const botaoEnviar = document.querySelector('.botao')
 
 botaoEnviar.addEventListener('click', 
