@@ -21,7 +21,7 @@ function enviarDados() {
         } else {
             item.classList.remove('errado')
             item.classList.add('correto')
-            error.classList.add('msg-correto')
+            error.classList.remove('msg-errado')
         }
     }
 }
