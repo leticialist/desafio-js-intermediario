@@ -114,13 +114,15 @@ body {
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin:auto;
+        margin: auto;
         min-height: 100vh;
     }
 
-    .container .conteudo {
-        margin-bottom: 20px;
+    .container .conteudo{
+        padding-top: 40px;
+        padding-bottom: 20px;
     }
+
     .container .formulario {
         margin: auto 0;
     }
