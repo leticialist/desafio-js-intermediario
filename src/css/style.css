@@ -108,3 +108,19 @@ body {
     opacity: 1;
 }
 
+@media (max-width:875px){
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin:auto;
+    }
+
+    .container .conteudo {
+        margin-bottom: 20px;
+    }
+    .container .formulario {
+        margin: auto 0;
+    }
+}
