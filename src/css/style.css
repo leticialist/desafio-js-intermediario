@@ -6,17 +6,15 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background: linear-gradient(0deg, #94bbe9 0%, #eeaeca 100%);
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(0deg, #94bbe9 0%, #eeaeca 100%);
     padding: 30px 60px;
     border-radius: 10px;
-    box-shadow: rgba(149, 157, 165, 0.37) 0px 8px 24px;
-
 }
 
 .container .conteudo {
@@ -45,7 +43,7 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 
 .container .formulario .items {
@@ -60,7 +58,7 @@ body {
     border: 1px solid black;
 }
 
-.container .formulario .item.errado {
+.container .formulario .item.erro {
     border-color: #ff0000;
 }
 
@@ -71,6 +69,7 @@ body {
 
 .container .formulario .item.mensagem {
     height: 100px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container .formulario .item::placeholder {
@@ -96,14 +95,14 @@ body {
     font-weight: 700;
 }
 
-.container .formulario .campo {
+.container .formulario span {
     font-size: 8px;
     display: flex;
     opacity: 0;
     transition: 0.3s;
 }
 
-.container .formulario .campo.msg-errado {
+.container .formulario span.erro {
     color: red;
     opacity: 1;
 }
